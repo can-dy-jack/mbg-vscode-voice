@@ -1,54 +1,36 @@
 {
     "name": "MaBaoGuo",
-    "display-name": "马保国语音包 (ZH)",
-    "version": "0.0.2",
+    "display-name": "马保国语音包",
+    "version": "1.1",
     "avatar": "avatar.png",
     "avatar-dark":"avatar.png",
     "author": "AlbertChamberlain",
     "gender": "male",
     "locale": "zh",
-    "description": "程序员要耗子尾汁，好好编程",
     "languages": [
-        "javascript"
+        "html"
     ],
     "contributes": [
         {
-        	"keywords": ["function"],
+        	"keywords": ["css","html"],
         	"voices": [
 				"呃朋友们好啊.mp3",
 				"我是浑元形意太极门掌门人马保国.mp3"
         	]
         },
 		{
-        	"keywords": ["(",")"],
+        	"keywords": "<",
         	"voices": [
 				"我是浑元形意太极门掌门人马保国.mp3"
         	]
         },
-		{
-        	"keywords": "new",
-        	"voices": [
-				"呃朋友们好啊.mp3"
-        	]
-        },
         {
-        	"keywords": "typeof",
+        	"keywords": ">",
         	"voices": [
+				"我劝.mp3",
 				"耗子尾汁好好反思.mp3"
         	]
         },
-		{
-        	"keywords": "instanceof",
-        	"voices": [
-				"我劝.mp3"
-        	]
-        },
-		{
-        	"keywords": "Array",
-        	"voices": [
-				"谢谢朋友们.mp3"
-        	]
-		},
         {
         	"keywords": "if",
         	"voices": [
@@ -68,13 +50,13 @@
         	]
 		},
 		{
-        	"keywords": "parseInt",
+        	"keywords": "div",
         	"voices": [
 				"我说可以.mp3"
         	]
 		},
 		{
-        	"keywords": "console",
+        	"keywords": "article",
         	"voices": [
 				"这是化劲儿.mp3"
         	]
@@ -87,62 +69,49 @@
         	]
 		},
 		{
-        	"keywords": ["null"],
+        	"keywords": ["span"],
         	"voices": [
 				"不讲武德.mp3"
         	]
 		},
 		{
-        	"keywords": "void",
-        	"voices": [
-				"不讲武德.mp3"
-        	]
-		},
-		{
-        	"keywords": "onclick",
+        	"keywords": "section",
         	"voices": [
 				"浑元功法.mp3"
         	]
 		},
         {
-        	"keywords": "switch",
+        	"keywords": ["nav","aside"],
         	"voices": [
 				"传统功夫是讲化劲儿的四两拨千斤.mp3"
         	]
 		},
 		{
-        	"keywords": "window",
+        	"keywords": "h",
         	"voices": [
 				"啊看来是有备而来.mp3"
         	]
 		},
 		{
-        	"keywords": ["=","@"],
-        	"voices": [
-				"有备而来.mp3"
-        	]
-		},
-		{
-        	"keywords": "static",
+        	"keywords": "p",
         	"voices": [
 				"我说停停.mp3"
         	]
 		},
 		{
-        	"keywords": "break",
+        	"keywords": "input",
         	"voices": [
-				"我说停停.mp3",
 				"他突然袭击左刺拳.mp3"
         	]
 		},
 		{
-        	"keywords": "try",
+        	"keywords": "form",
         	"voices": [
 				"他说要和我试试.mp3"
         	]
 		},
 		{
-        	"keywords": "catch",
+        	"keywords": ["class","id"],
         	"voices": [
 				"我大意了啊没有闪.mp3"
         	]
@@ -154,13 +123,13 @@
 			]
 		},
 		{
-			"keywords": ["#","$"],
+			"keywords": ["getElementByld","getElementsByName","gatElementsByTagName","getElementByClassName"],
 			"voices": [
 				"然后上来就是.mp3"
 			]
 		},
 		{
-			"keywords": [",","]", "}","getElementByld","getElementsByName","gatElementsByTagName","getElementByClassName"],
+			"keywords": [",","]", "}"],
 			"voices": [
 				"一个右鞭腿.mp3",
 				"一个左正蹬.mp3"
@@ -174,54 +143,34 @@
 			]
 		},
 		{
-			"keywords": "Date",
+			"keywords": "type",
 			"voices": [
 				"他说他是乱打的他可不是乱打的啊.mp3"
 			]
 		},
 		{
-			"keywords": "continue",
-			"voices": [
-				"传统功夫宜点到为止.mp3",
-				"按传统功夫的点到为止他已经输了.mp3"
-			]
-		},
-		{
-			"keywords": "for",
+			"keywords": ["ol","ul"],
 			"voices": [
 				"很快啊.mp3"
 			]
 		},
 		{
-			"keywords": "close",
+			"keywords": "li",
 			"voices": [
 				"我全部防出去防出去了啊.mp3"
 			]
 		},
 		{
-			"keywords": "return",
+			"keywords": "url",
 			"voices": [
 				"这是化劲儿.mp3"
 			]
 		},
 		{
-			"keywords": ".",
-			"voices": [
-				"很快啊.mp3",
-				"如果我这一拳发力.mp3"
-			]
-		},
-		{
-			"keywords": "String",
+			"keywords": ":",
 			"voices": [
 				"不要搞窝里斗.mp3"
 			]
 		},
-		{
-			"keywords": ["src","link"],
-			"voices": [
-				"我在健身房练功颈椎练坏了.mp3"
-			]
-		}
     ]
 }
